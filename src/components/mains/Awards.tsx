@@ -5,7 +5,7 @@ const Main = styled.main`
     padding: 1% 2%;                             
     min-height: 100vh;                              
     background-color: #F4F2EE;
-    text-aRoleLign: center;                               
+    text-align: center;                               
     width: 80%;     
     @media  screen and (max-width: 1000px) {
         width: 100%;
