@@ -47,6 +47,10 @@ function Root(){
             element = {<Home />}
           />
           <Route 
+            path = {'index.html'}
+            element = {<Home />}
+          />
+          <Route 
             path = {'/Home'}
             element = {<Home />}
           />
@@ -59,11 +63,19 @@ function Root(){
             element = {<Education />}
           />
           <Route 
+            path = {'education.html'}
+            element = {<Education />}
+          />
+          <Route 
             path = {'/employment'}
             element = {<Employment />}
           />
           <Route 
             path = {'/employment.html'}
+            element = {<Employment />}
+          />
+          <Route 
+            path = {'employment.html'}
             element = {<Employment />}
           />
           <Route 
@@ -75,6 +87,10 @@ function Root(){
             element = {<Skills />}
           />
           <Route 
+            path = {'skills.html'}
+            element = {<Skills />}
+          />
+          <Route 
             path = {'/awards'}
             element = {<Awards />}
           />
@@ -83,11 +99,19 @@ function Root(){
             element = {<Awards />}
           />
           <Route 
+            path = {'awards.html'}
+            element = {<Awards />}
+          />
+          <Route 
             path = {'/projects'}
             element = {<Projects />}
           />
           <Route 
             path = {'/projects.html'}
+            element = {<Projects />}
+          />
+          <Route 
+            path = {'projects.html'}
             element = {<Projects />}
           />
         </Routes>
