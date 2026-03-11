@@ -11,10 +11,17 @@ const StyledNav = styled.nav`
 `;
 
 const StyledUl = styled.ul`
+    display: flex;
+    flex-direction: column;
     list-style: none;
     padding: 10%;
     @media  screen and (max-width: 1000px) {
-        padding: 0;
+        padding: 3%;
+        flex-direction: row;
+    }
+    @media  screen and (max-width: 750px) {
+        padding: 3%;
+        flex-direction: column;
     }
 `;
 
@@ -26,6 +33,12 @@ const StyledLi = styled.li`
     padding-left: 3%;
     border-radius: 5px;
     @media  screen and (max-width: 1000px) {
+        width: 100%;                                   
+        text-align: center;
+        padding: 1%;
+    }
+    @media  screen and (max-width: 750px) {
+        flex-direction: row;
         width: 100%;                                   
         text-align: center;
         background-color:#E0DADA;
@@ -44,7 +57,7 @@ const StyledLinks = styled(NavLink)`
     text-decoration: none;
     font-size: calc(2px + 1.3vw);
     color: black;
-    @media  screen and (max-width: 1000px) {
+    @media screen and (max-width: 1000px) {
         font-size: calc(12px + 1.3vw);     
         width: 100%;                             
         display: inline-block;
