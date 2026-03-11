@@ -18,7 +18,7 @@ const StyledUl = styled.ul`
     }
 `;
 
-const StyledLi = styled.ul`
+const StyledLi = styled.li`
     width: 90%;
     text-align: left;
     background-color: #E0DADA;
