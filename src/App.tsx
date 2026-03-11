@@ -15,7 +15,7 @@ const PageWrapper = styled.div`
     width: 80vw;
     margin: 0 auto;
     font-family: 'Source Sans 3', sans-serif;
-    @media  screen and (max-width: 750px) {
+    @media  screen and (max-width: 1000px) {
         width: 100vw;
     }                       
 `;
@@ -24,7 +24,7 @@ const NavMain = styled.div`
     display: flex;
     flex-direction: row;
     width: 100%;  
-    @media  screen and (max-width: 750px) {
+    @media  screen and (max-width: 1000px) {
         flex-direction: column;
     }                                         
 `;

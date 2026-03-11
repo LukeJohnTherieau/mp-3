@@ -7,7 +7,7 @@ const Main = styled.main`
     background-color: #F4F2EE;
     text-align: center;                               
     width: 80%;
-    @media  screen and (max-width: 750px) {
+    @media  screen and (max-width: 1000px) {
         width: 100%;
     }                                             
 `;
@@ -23,7 +23,7 @@ const HomeParagraph = styled.p`
     font-size: calc(8px + 1vw);                              
     padding: 2%;                                      
     text-align: left;
-    @media  screen and (max-width: 750px) {
+    @media  screen and (max-width: 1000px) {
         line-height: 100%;
         font-size: calc(10px + 2vw);
         padding: 2%;

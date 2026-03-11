@@ -7,7 +7,7 @@ const Main = styled.main`
     background-color: #F4F2EE;
     text-aRoleLign: center;                               
     width: 80%;     
-    @media  screen and (max-width: 750px) {
+    @media  screen and (max-width: 1000px) {
         width: 100%;
     }                                         
 `;

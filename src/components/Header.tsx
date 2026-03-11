@@ -8,7 +8,7 @@ const HeaderStyle = styled.header`
     display: flex;
     flex-direction: row;
     align-items: center;
-    @media  screen and (max-width: 750px) {
+    @media  screen and (max-width: 1000px) {
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -29,7 +29,7 @@ const ProfilePicture = styled.img`
     border-radius: 50%; 
     object-fit: cover;
     margin: 5px;
-    @media  screen and (max-width: 750px) {
+    @media  screen and (max-width: 1000px) {
         width: 150px;       
         height: 150px;      
         border-radius: 50%; 

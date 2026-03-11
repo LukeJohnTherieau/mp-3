@@ -7,7 +7,7 @@ const Main = styled.main`
     background-color: #F4F2EE;
     text-aRoleLign: center;                               
     width: 80%; 
-    @media  screen and (max-width: 750px) {
+    @media  screen and (max-width: 1000px) {
         width: 100%;
     }                                            
 `;
@@ -32,7 +32,7 @@ const RoleLi = styled.li`
 const SkillRow = styled.div`
     display: flex;
     flex-direction: row;   
-    @media  screen and (max-width: 750px) {
+    @media  screen and (max-width: 1000px) {
         display: flex;
         flex-direction: column;
         margin: 1%;
@@ -45,7 +45,7 @@ const SkillCategory = styled.div`
     border-radius: 5px;                  
     margin: 1%;
     padding: 1%;    
-    @media  screen and (max-width: 750px) {
+    @media  screen and (max-width: 1000px) {
         width: 100%;
     }              
 `;

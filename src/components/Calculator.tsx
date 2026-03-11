@@ -9,7 +9,7 @@ const CalculatorContainer = styled.div`
     background-color: gray;   
     padding: 2%;
     border-radius: 10px;  
-    @media  screen and (max-width: 750px) {
+    @media  screen and (max-width: 1000px) {
         border-radius: 0px;                      
     }                                   
 `;
@@ -21,7 +21,7 @@ const CalculatorOutput = styled.h4`
     height: calc(12px + 1vw);                  
     font-size: calc(12px + 1vw);
     background-color: white;      
-    @media  screen and (max-width: 750px) {
+    @media  screen and (max-width: 1000px) {
         height: calc(18px + 1.5vw);                 
         font-size: calc(18px + 1.5vw);
     }                                    
@@ -34,7 +34,7 @@ const CalculatorButtonGroup = styled.div`
 const CalculatorInputGroup = styled.div`
     display: flex;
     flex-direction: row;   
-    @media  screen and (max-width: 750px) {
+    @media  screen and (max-width: 1000px) {
         font-size: calc(18px + 1.25vw);
     }                                 
 `;
@@ -54,7 +54,7 @@ const CalculatorInput = styled.div`
     display: flex;
     flex-direction: column;
     width: 50%;     
-    @media  screen and (max-width: 750px) {
+    @media  screen and (max-width: 1000px) {
         font-size: calc(12px + 1.25vw);
     }                 
 `;
