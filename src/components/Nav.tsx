@@ -1,4 +1,4 @@
-import {NavLink} from "react-router";
+import {Link} from "react-router";
 import styled from "styled-components";
 
 
@@ -48,7 +48,7 @@ const StyledLi = styled.li`
     }
 `;
 
-const StyledLinks = styled(NavLink)`
+const StyledLinks = styled(Link)`
     width: 90%;
     text-align: left;
     font-weight: 900;
@@ -70,12 +70,12 @@ export default function Nav() {
     return (
         <StyledNav>
             <StyledUl>
-                <StyledLi><StyledLinks to="/home" className={({ isActive }) => (isActive ? 'nav-link-active' : 'nav-link-inactive')}>Home</StyledLinks></StyledLi>
-                <StyledLi><StyledLinks to="/education" className={({ isActive }) => (isActive ? 'nav-link-active' : 'nav-link-inactive')}>Education</StyledLinks></StyledLi>
-                <StyledLi><StyledLinks to="/employment" className={({ isActive }) => (isActive ? 'nav-link-active' : 'nav-link-inactive')}>Employment</StyledLinks></StyledLi>
-                <StyledLi><StyledLinks to="/projects" className={({ isActive }) => (isActive ? 'nav-link-active' : 'nav-link-inactive')}>Projects</StyledLinks></StyledLi>
-                <StyledLi><StyledLinks to="/awards" className={({ isActive }) => (isActive ? 'nav-link-active' : 'nav-link-inactive')}>Awards</StyledLinks></StyledLi>
-                <StyledLi><StyledLinks to="/skills" className={({ isActive }) => (isActive ? 'nav-link-active' : 'nav-link-inactive')}>Skills</StyledLinks></StyledLi>
+                <StyledLi><StyledLinks to="/home">Home</StyledLinks></StyledLi>
+                <StyledLi><StyledLinks to="/education">Education</StyledLinks></StyledLi>
+                <StyledLi><StyledLinks to="/employment">Employment</StyledLinks></StyledLi>
+                <StyledLi><StyledLinks to="/projects">Projects</StyledLinks></StyledLi>
+                <StyledLi><StyledLinks to="/awards">Awards</StyledLinks></StyledLi>
+                <StyledLi><StyledLinks to="/skills">Skills</StyledLinks></StyledLi>
             </StyledUl>
         </StyledNav>
     );

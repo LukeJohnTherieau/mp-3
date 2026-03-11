@@ -8,11 +8,15 @@ const FooterStyle = styled.footer`
     text-align: center;
 `;
 
+const FooterA = styled.a`
+    color: bisque;
+`;
+
 
 export default function Footer() {
     return (
         <FooterStyle>
-            <p>All Rights Reserved by Luke Therieau &#169;</p>
+            <p>All Rights Reserved by Luke Therieau <FooterA href="#"> Credits</FooterA> &#169;</p>
         </FooterStyle>
     );
 }

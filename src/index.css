@@ -2,11 +2,3 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-.nav-link-active {
-    background-color:RGBA(160, 209, 255, 0.7);
-}
-
-.nav-link-inactive {
-    background-color: #E0DADA;
-}
